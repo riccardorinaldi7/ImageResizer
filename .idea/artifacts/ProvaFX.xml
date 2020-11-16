@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ProvaFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProvaFX</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="A simple nothing" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/src/resources/logoH.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/src/resources/logoH.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/resources/logoH.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="ProvaFX" />
+        <option name="vendor" value="winnie" />
+        <option name="version" value="1.0.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ProvaFX.jar">
+        <element id="module-output" name="ProvaFX" />
+      </element>
+    </root>
+  </artifact>
+</component>
