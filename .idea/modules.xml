@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ProvaFX.iml" filepath="$PROJECT_DIR$/ProvaFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImageResizer.iml" filepath="$PROJECT_DIR$/ImageResizer.iml" />
     </modules>
   </component>
 </project>

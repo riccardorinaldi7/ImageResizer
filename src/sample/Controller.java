@@ -23,7 +23,7 @@ import java.util.Set;
 
 public class Controller {
 
-    static final Set<String> supportedExtensions = new HashSet<>(Arrays.asList("jpg", "jpeg", "png"));
+    static final Set<String> supportedExtensions = new HashSet<>(Arrays.asList("jpg", "jpeg", "png", "JPG", "JPEG", "PNG"));
 
     private File[] selectedImages;
     private File selectedDirectory;
