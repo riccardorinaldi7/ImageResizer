@@ -1,0 +1,8 @@
+#black-text{
+    -fx-text-fill: black;
+}
+
+#submit{
+    -fx-font-weight: bold;
+    -fx-padding: 6;
+}

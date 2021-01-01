@@ -12,12 +12,19 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Hello World");
+        FXMLLoader fxmlLoader = new FXMLLoader(ClassLoader.getSystemResource("sample.fxml"));
+        Parent root = fxmlLoader.load();
+        primaryStage.setTitle("Ridimensiona immagini");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
+        primaryStage.setWidth(520);
+        primaryStage.setMinWidth(500);
+        primaryStage.setHeight(250);
+        primaryStage.setMinHeight(250);
 
-        primaryStage.getIcons().add(new Image("/resources/logoH.png"));
+        primaryStage.getIcons().add(new Image(ClassLoader.getSystemResourceAsStream("ImageResizerIcon.png")));
+
+        ((Controller) fxmlLoader.getController()).initialize();
     }
 
 
