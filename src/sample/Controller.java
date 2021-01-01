@@ -81,7 +81,7 @@ public class Controller {
                 continue;
             }
 
-            // Open an image
+            // Open the image
             BufferedImage bufferedImage;
             try {
                 System.out.println(image.getAbsolutePath());
@@ -97,7 +97,7 @@ public class Controller {
                 double yFactor = Double.parseDouble(yScalingFactor.getText());
                 BufferedImage resizedImage = resizeImage(bufferedImage, (int) (bufferedImage.getWidth() * xFactor), (int)(bufferedImage.getHeight() * yFactor));
 
-                // Write the new image as a jpg file
+                // Write the scaled image as a new file
                 File outputFile = new File(targetPath + System.getProperty("file.separator") + image.getName());
                 try {
                     ImageIO.write(resizedImage, fileExtension, outputFile);
